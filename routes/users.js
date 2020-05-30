@@ -1,10 +1,11 @@
 const express = require('express');
 const router = express.Router();
 
-var UserController = require('./../controllers/UserController');
+const UserController = require('./../controllers/UserController');
+const isAuthenticated = require('./../middlewares/isAuthenticated');
 
 /* GET users listing. */
-router.get('/', UserController.getUser);
+router.get('/', isAuthenticated.isValid, UserController.getUser);
 
 // router.get('/', function(req, res, next) {
 //   res.send('respond with a resource');
