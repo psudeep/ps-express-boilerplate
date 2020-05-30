@@ -3,6 +3,7 @@
  */
 
 const { check, validationResult } = require('express-validator');
+const User = require('./../models/User');
 
 const getUser = async(req, res, next) => {
   try {
@@ -16,7 +17,8 @@ const getUser = async(req, res, next) => {
 const saveUser = async(req, res, next) => {
   const payload = req.body;
   try {
-    res.send({success: true, data: payload});
+    const data = await User.create(payload);
+    res.send({success: true, data});
   } catch(e) {
     console.log('e', e);
     res.status(500).json({success: false, code: 500, message: 'error occured'});

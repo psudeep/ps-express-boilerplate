@@ -6,6 +6,7 @@ const isAuthenticated = require('./../middlewares/isAuthenticated');
 
 /* GET users listing. */
 router.get('/', isAuthenticated.isValid, UserController.getUser);
+router.post('/add', UserController.saveUser);
 
 // router.get('/', function(req, res, next) {
 //   res.send('respond with a resource');
