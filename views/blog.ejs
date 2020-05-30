@@ -6,9 +6,9 @@
         <img src="/images/9hHO6R0b_400x400.jpg" style="height: 102px; width: 102px;" alt="Prashant Sudeep picture" />
       </div>
       <div id="header_title">
-        <h3><a href="https://cpoo.in">Prashant Sudeep</a></h3>
+        <h3><a href="https://cpoo.in"><%= config.USER_TITLE %></a></h3>
         <div style="font-size:15px; font-style:normal;">
-          Musings on technology, products, startups & human behaviour.
+          <%= config.TAGLINE %>
         </div>
       </div>
       <div class="clear"></div>
@@ -99,7 +99,7 @@
       <div id="sidebar">
         <div class="sidebar_title"><a href="/about">About</a></div>
         <div id="about_description">
-          My name is <a href="about.html">Prashant Sudeep</a> and I'm Software Developer @ <a href="https://thb.co.in">THB</a><br/> THB helps healthcare providers structure their datasets into a flexi-warehouse with "one source of truth".
+          <%= config.ABOUT %>
         </div>
         <!-- recent posts -->
         <div class="sidebar_title"><a href="#">Essays</a></div>

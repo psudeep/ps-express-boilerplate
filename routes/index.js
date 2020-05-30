@@ -11,6 +11,6 @@ router.get('/', function(req, res, next) {
   res.render('index', { title: 'Sipu Express Boilerplate' });
 });
 
-router.get('/blog', Blog.showPost);
+router.get('/@:user/blog', Blog.showPost);
 
 module.exports = router;
