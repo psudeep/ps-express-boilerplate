@@ -1,0 +1,648 @@
+/* base.css */
+
+a:link {color: #2A5DB0; text-decoration: none}
+a:visited {color: #2A5DB0; text-decoration: none}
+a:hover {color: #2A5DB0; text-decoration: underline}
+
+body
+{
+	font-family: Helvetica, Lucida Grande, verdana;
+  font-size: 14px;
+}
+
+td
+{
+	font-family: Helvetica, Lucida Grande, verdana;
+	font-size: 13px;
+}
+
+table
+{
+  border-collapse: collapse;
+  border: 1px solid;
+}
+
+/* website title */
+h1
+{
+	font-size: 32px;
+	margin-bottom: 5px;
+	margin-top: 0px;
+}
+
+#header
+{
+	padding: 10px;
+}
+
+#header_image
+{
+	float: left;
+	width: 100px;
+}
+
+#header_title
+{
+	padding-left: 115px;
+}
+
+#intro_paragraph
+{
+	margin-bottom: 40px;
+}
+
+#intro_paragraph_description
+{
+	margin-top: 10px;
+	margin-bottom: 12px;
+}
+
+.blog_post_published_date
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	font-size: 15px;
+	color: #99A;
+}
+
+/* blog post title */
+h2
+{
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-size: 28px;
+	line-height: 30px;
+	font-weight: bold;
+}
+
+h2.blog_post_title
+{
+	margin-bottom: 20px;
+}
+
+.read_more
+{
+	margin-top: 20px;
+}
+
+h3
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+h4
+{
+	margin-top: 5px;
+}
+
+#about_description
+{
+	margin: 8px 5px 5px 5px;
+}
+
+#twitter_div ul
+{
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 0px;
+	padding: 5px;
+}
+
+#twitter_div li
+{
+	margin-bottom: 10px;
+}
+
+#recent_posts ul
+{
+	list-style-image: none;
+	list-style-position: outside;
+	list-style-type: none;
+	margin: 8px 5px 5px 5px;
+	padding: 0px;
+}
+
+#recent_posts li
+{
+	margin-bottom: 8px;
+}
+
+#page
+{
+	width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#content
+{
+	width: 1000px;
+	min-height: 500px;
+}
+
+#main
+{
+	float: left;
+	width: 700px;
+	padding: 10px;
+	padding-top: 15px;
+	padding-right: 20px;
+	font-size: 17px;
+	line-height: 24px;
+}
+
+#sidebar
+{
+	float: left;
+	margin-right: 0px;
+	margin-left: 0px;
+	width: 249px;
+	padding: 10px;
+	margin-bottom:0px;
+
+	font-family: Helvetica, Lucida Grande, verdana;
+	font-size: 13px;
+	line-height: 17px;
+}
+
+#paging
+{
+	font-size: 14px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.bio
+{
+	margin-top:15px;
+	margin-left:30px;
+	font-style: normal;
+}
+
+.sidebar_title
+{
+	font-weight: bold;
+	font-size: 17px;
+	margin-top: 25px;
+}
+
+#twitter_follow
+{
+	height: 30px;
+}
+
+.blogroll_item
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.stat_counter
+{
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+.blog_post
+{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.recent_blog_post
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.recent_blog_post h2
+{
+	font-size: 21px;
+}
+
+.tags_list_item
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#related_posts
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#related_posts_title
+{
+	font-weight: bold;
+}
+
+#subscribe_cta
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+#subscribe_cta_title
+{
+	font-weight: bold;
+}
+
+#subscribe_cta_description
+{
+	margin-top: 5px;
+	margin-bottom: 8px;
+}
+
+#subscribe_cta_email
+{
+	padding: 5px;
+	font-family: Helvetica, Lucida Grande, verdana;
+	-webkit-appearance: none;
+	font-size: 17px;
+	line-height: 24px;
+	width: 80%;
+	border: 2px solid #EEEEEE;
+}
+
+#subscribe_cta_submit
+{
+	background-color: #007BB6;
+	border: 2px solid #007BB6;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 5px;
+	color: #FFFFFF;
+	font-family: Helvetica, Lucida Grande, verdana;
+	font-size: 17px;
+	line-height: 24px;
+	width: 15%;
+	cursor: pointer;
+}
+
+#subscribe_page_description
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.featured_post
+{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.featured_post_title
+{
+	font-weight: bold;
+}
+
+.featured_post_description
+{
+	 font-size: 15px;
+}
+
+#disqus_thread
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.blog_admin_controls
+{
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+.blog_admin_controls a
+{
+	color: #CD0000;
+}
+
+.tag_title
+{
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.status_message
+{
+	font-style: italic;
+	background: #FFE600;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 3px;
+}
+
+#admin_title
+{
+	float: left;
+	width: 50%;
+}
+
+#admin_logout
+{
+	float: left;
+	text-align: right;
+	width: 50%;
+}
+
+#generate_slug
+{
+	font-size: 14px;
+}
+
+#featured_category_description
+{
+	margin-top: 3px;
+	font-size: 14px;
+}
+
+#tags_description
+{
+	margin-top: 3px;
+	font-size: 14px;
+}
+
+.related_post_input
+{
+	margin-bottom: 5px;
+}
+
+#related_posts_description
+{
+	font-size: 14px;
+}
+
+.post_field_label
+{
+	margin-top: 20px;
+	margin-bottom: 3px;
+	font-weight: bold;
+}
+
+.post_field_input > input,textarea
+{
+	font-size: 15px;
+	width: 100%;
+	border: 1px solid #DDDDDD;
+	padding: 5px;
+}
+
+#post_field_image_dimensions
+{
+	margin-top: 5px;
+}
+
+#post_field_image_dimensions > input
+{
+	font-size: 15px;
+	padding: 5px;
+	border: 1px solid #DDDDDD;
+	width: 50px;
+}
+
+#post_body_details
+{
+	margin-top: 5px;
+	font-size: 12px;
+}
+
+#post_form_actions
+{
+	margin-top: 10px;
+}
+
+#post_form_submit
+{
+	background-color: #007BB6;
+	border: 2px solid #007BB6;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 5px;
+	color: #FFFFFF;
+	font-family: Helvetica, Lucida Grande, verdana;
+	font-size: 17px;
+	line-height: 24px;
+	width: 100px;
+	cursor: pointer;
+}
+
+#preview_link
+{
+	background-color: #AAAAAA;
+	border: 2px solid #AAAAAA;
+	border-radius: 0;
+	-webkit-appearance: none;
+	padding: 5px;
+	color: #FFFFFF;
+	font-family: Helvetica, Lucida Grande, verdana;
+	font-size: 17px;
+	line-height: 24px;
+	width: 120px;
+	cursor: pointer;
+}
+
+#post_preview
+{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+blockquote
+{
+	font: 1.2em/1.6em Georgia, "Times New Roman", Times, serif;
+	background: url(/static/images/close-quote.gif) no-repeat right bottom;
+	padding-left: 18px;
+	text-indent: -18px;
+}
+
+blockquote:first-letter
+{
+	background: url(/static/images/open-quote.gif) no-repeat left top;
+	padding-left: 18px;
+	font: italic 1.4em Georgia, "Times New Roman", Times, serif;
+}
+
+#products_summary
+{
+	margin-top: 25px;
+	font-style: italic;
+}
+
+#product_filters
+{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-size: 14px;
+}
+
+.product_filter_selected
+{
+	font-weight: bold;
+}
+
+.product_time
+{
+	float: left;
+	padding: 5px 20px 70px 5px;
+	width: 120px;
+	font-size: 18px;
+	color: gray;
+}
+
+.product_company
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+	color: gray;
+	font-size: 13px;
+	line-height: 17px;
+}
+
+.product_roles
+{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.product_role1
+{
+	background-color: #487cb2;
+	padding: 5px;
+	font-size: 13px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+	color: white;
+}
+
+.product_role2
+{
+	background-color: #d9e2ec;
+	padding: 5px;
+	font-size: 13px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+}
+
+.product_role3
+{
+	background-color: #F1F1F1;
+	padding: 5px;
+	font-size: 13px;
+	margin-bottom: 8px;
+	border-radius: 2px;
+}
+
+.product_dot
+{
+	float: left;
+	padding-top: 5px;
+	height: 24px;
+	width: 24px;
+	position: relative;
+	background: url(/static/images/grey_circle_24.png) no-repeat right bottom;
+	z-index: 100;
+}
+
+.product_content
+{
+	float: left;
+	position: relative;
+	padding-left: 30px;
+	padding-bottom: 70px;
+	margin-left:-15px;
+	width: 503px;
+	border-left: 6px solid lightGrey;
+	min-height: 210px;
+}
+
+.product_title
+{
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-weight: bold;
+}
+
+.product_description
+{
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.about_title
+{
+	margin-top: 20px;
+	font-style: italic;
+	font-size: 14px;
+}
+
+.about_indented_block
+{
+	margin-top: 15px;
+	margin-left: 15px;
+	padding-left: 10px;
+	border-left: 4px solid #EEE;
+	font-size: 13px;
+	line-height: 30px;
+}
+
+.clear
+{
+	clear: both;
+}
+
+@media only screen and (max-device-width: 480px)
+{
+	img
+	{
+		max-width: 100%;
+		height: auto;
+	}
+
+	iframe
+	{
+		max-width: 100%;
+	}
+
+	#page
+	{
+		width: 100%;
+	}
+
+	#content
+	{
+		width: 100%;
+	}
+
+	#header
+	{
+		padding: 5px;
+	}
+
+	#main
+	{
+		width: auto;
+		padding: 5px;
+	}
+
+	#subscribe_cta_email
+	{
+		width: 95%;
+	}
+
+	#subscribe_cta_submit
+	{
+		width: 100px;
+	}
+
+	#sidebar
+	{
+		display: none;
+	}
+}
